@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="Images/Logo.png" alt="Logo">
+            <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Landing.html">LANDING</a></li>
+                        <li><a href="Event Details.html">DETAILS</a></li>
+                        <li><a href="Participants.html">PARTICIPANTS</a></li>
+                        <li><a href="#">REGISTER</a></li>
+                    </ul>
+            </div>
+        </nav>
+
+        <h1>Book Your Seat</h1>
+    </section>
+    
+    <section class="container">
+        <h1>Registration Form </h1>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter Full Name" required>
+            </div>
+
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter Email address" required>
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter phone number" required>
+                </div>
+
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" placeholder="Enter Birth date" required>
+                </div>
+            </div>
+
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender" checked>
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender">
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender">
+                        <label for="check-other">Prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-box address">
+                <label>Address</label>
+                <input type="text" placeholder="Enter street address" required>
+                <input type="text" placeholder="Enter street address line 2" required>
+                <div class="colum">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Country</option>
+                            <option>South Africa</option>
+                            <option>America</option>
+                            <option>Japan</option>
+                            <option>England</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Enter your city" required>
+                </div>
+
+                <div class="column">
+                    <input type="text" placeholder="Enter your region" required>
+                    <input type="number" placeholder="Enter your postal code" required>
+                </div>
+                
+            </div>
+
+            <button>Submit</button>
+
+        </form>
+
+    </section>
+
+
+
+
+        
+
+    <section>
+        <footer class="footer">
+           <h4>About Us</h4> 
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eos libero explicabo numquam consequuntur 
+                totam. Omnis quo laborum asperiores quidem voluptate <br> tenetur neque. Nisi minima ex inventore enim 
+                dolor placeat magni atque soluta. <br> 
+                <br>
+                &copy;All Right Reserved</p>
+                <div class="Icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+        </footer>
+        </section>
+
+</body>
+</html>
